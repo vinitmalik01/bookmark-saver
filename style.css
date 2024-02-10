@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: black;
+}
+
+nav h1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 13px;
+    padding: 20px;
+    border: 12px solid gray;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+main {
+
+    margin: 12px;
+
+}
+
+.inputofbm {
+    margin: 30px;
+    padding: 30px;
+    font-weight: 700;
+    border: 12px solid gray;
+    font-size: large;
+}
+
+.inputofbm input {
+    padding: 12px;
+    width: 400px;
+    background-color: whitesmoke;
+    color: black;
+    font-weight: 900;
+    border: none;
+    border-radius: 12px;
+    font-size: 20px;
+}
+.inputofbm input:focus{
+    background-color: gray;
+    border: none;
+}
+#savedbookmarks {
+    margin: 30px;
+    padding: 30px;
+    position: relative;
+    max-height: 80vh;
+    background-color: blueviolet;
+    color: black;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+button {
+    background-color: azure;
+    border: none;
+    color: black;
+    margin: 12px;
+    border-radius: 12px;
+    padding: 17px;
+}
+button:hover{
+    background-color: gray;
+    transition: ease-in-out .3s ;
+}
